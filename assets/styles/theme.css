@@ -1,0 +1,186 @@
+/*!
+
+ =========================================================
+ * Copyleft @teguhrianto22
+ =========================================================
+
+ */
+body {
+  padding: 0;
+  overflow-y: auto;
+}
+
+.pentagonLogo {
+  width: 200px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  margin-bottom: 25px;
+}
+
+.dashboard-main {
+  border: none;
+}
+.dashboard-main .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 20px;
+}
+.dashboard-main .container .social-lists {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.dashboard-main .container .social-lists li {
+  list-style-type: none;
+  text-align: center;
+}
+.dashboard-main .container .social-lists li a {
+  padding: 0;
+  border: none !important;
+  background: none;
+  color: #46be8a;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: max-content;
+}
+.dashboard-main .container .social-lists li a:hover {
+  color: #FFF !important;
+}
+.dashboard-main .container .social-lists li a img {
+  width: 100px;
+  height: auto;
+  border-radius: 25px;
+}
+.dashboard-main .container .social-lists li a span {
+  display: block;
+  font-weight: 500;
+}
+
+.section-col h2 {
+  font-size: 18px;
+  color: #FFF;
+  font-weight: 400;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Maven Pro", Arial, sans-serif;
+  font-weight: normal;
+  background-image: url("../img/development.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none !important;
+  font-weight: 500 !important;
+}
+
+.btn-primary {
+  background: #F50C1A;
+  border-color: #F50C1A;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background: #F50C1A;
+  border-color: #F50C1A;
+}
+
+.btn.focus, .btn:focus {
+  box-shadow: none;
+}
+
+.bg-primary {
+  background-color: #F50C1A !important;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #aaaaaa !important;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #aaaaaa !important;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #aaaaaa !important;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #aaaaaa !important;
+}
+
+main {
+  width: 100%;
+}
+
+.brand-info {
+  height: 100vh;
+  padding: 10%;
+}
+@media only screen and (max-width: 768px) {
+  .brand-info {
+    height: 0px;
+    padding: 0;
+    display: none;
+    overflow: hidden;
+  }
+  .brand-info div {
+    height: 0px;
+    display: none;
+    overflow: hidden;
+  }
+}
+
+.logo-black img {
+  -webkit-filter: invert(1); /* Safari 6.0 - 9.0 */
+  filter: invert(1);
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.login {
+  height: 100vh;
+  padding: 10%;
+  background-color: #FFF;
+}
+@media only screen and (max-width: 768px) {
+  .login {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+.login form {
+  width: 100%;
+}
+
+.box-white {
+  background-color: #FFF;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}/*# sourceMappingURL=theme.css.map */
