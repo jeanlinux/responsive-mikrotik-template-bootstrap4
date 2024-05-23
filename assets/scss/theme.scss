@@ -6,7 +6,10 @@
 
  */
 
+//custom
+@use "./_pages";
+
 // CORE
-@import '_partials/color';
-@import '_partials/mixins';
-@import '_partials/global';
+@import "_partials/color";
+@import "_partials/mixins";
+@import "_partials/global";
