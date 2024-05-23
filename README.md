@@ -13,9 +13,9 @@ Just plug and play on your MikroTik router.
 
 To get started working on this project in a local dev environment, follow the below instructions.
 
-Make sure you have the `Live Sass Compiler extension` installed by Glenn Marks to compile your scss to scss. Download it from your IDE.
+Make sure you have the `Live Sass Compiler extension` installed by Glenn Marks to compile your scss to css. Download it from your IDE.
 
-installed the `Live Server` extension by Ritwick Dey to run a local dev server. it works just like nodemon.
+install the `Live Server` extension by Ritwick Dey to run a local dev server. it works just like nodemon.
 
 after having the above mentioned extensions installed, you should configure a savePath to compile all the scss files into css.
 
@@ -46,13 +46,13 @@ and change the `savePath` to **/assets/css**
 
 ## Compiling the SCSS files to CSS
 
-- Find the watch sass button at the bottom of the terminal bar and click on it to compile your scss files.
+- Find the watch sass button at the bottom of the terminal bar and click on it to compile your scss files to.
 
 ![watch sass](readme.png)
 
 If you cant find watch sass, open your command palette by pressing `ctrl + P` on Mac `Command + P`. and then type `> watch sass`.
 
-Make sure you have the compilation directory specified to this projects required dir or a new location will be used for the compilation of the css files. [How to configure the savePath](#configuring-a-savepath-or-dir)
+Make sure you have the compilation directory specified or a new location will be used when sass is compiled. [How to configure the savePath](#configuring-a-savepath-or-dir)
 
 If in your console, the output is `watching` then it means everything is working fine.
 
@@ -64,7 +64,7 @@ If you cant find Go Live at the bottom of the terminal open your command palette
 
 ## An overview of how the scss folder is structure
 
-The **theme.scss** imports all of the scss files in the \_partials and \_pages directory and compiles them into the css directory.
+The **theme.scss** imports all of the scss files in the \_partials and \_pages directory and compiles them into the `assets/css` directory.
 
 inside the **\_pages** directory, each file includes styles for a page. e.g the **\_dashboard.scss** includes the styles for the **dashboard page**. Noticed there is an `_index.scss` file in the root. The **index.scss** `@forwards` all the files in a directory and includes them in the `theme.scss` file so that it compiles them.
 
