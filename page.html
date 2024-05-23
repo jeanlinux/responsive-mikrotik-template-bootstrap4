@@ -48,230 +48,380 @@
 		/>
 	</head>
 	<body>
-		<main>
+		<header
+			class="container-fluid position-sticky"
+			style="top: 0; margin-bottom: 90px"
+		>
+			<div class="container">
+				<a href="http://pentagonwifi.com/" target="_blank">
+					<img
+						class="img-fluid"
+						style="width: 300px"
+						src="assets/img/logo.png"
+					/>
+				</a>
+			</div>
+		</header>
+
+		<main class="pt-0 pt-md-5">
 			<div class="container">
 				<!-- <div class="row justify-content-center"> -->
 				<!-- <div class="col-lg-8 col-md-8"> -->
 				<!-- <div class="brand-info d-flex" data-aos="fade-down"> -->
-				<div>
-					<div class="logo">
-						<a href="http://pentagonwifi.com/" target="_blank">
-							<img src="assets/img/logo.png" />
-						</a>
-					</div>
-					<div class="dashboard">
-						<div class="container">
-							<div class="row align-items-start">
-								<div class="col">
-									IPTV
-									<ul class="list">
-										<li>
-											<a href="https://hulu.com" target="_blank" class="d_link">
-												<img src="assets/img/hulu.png" alt="Hulu" />
-												Hulu
-											</a>
-										</li>
-										<li>
-											<a
-												href="https://netflix.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/Netflix.png" alt="Netflix" />
-												Netflix
-											</a>
-										</li>
-										<li>
-											<a
-												href="https://streamio.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/stremio.png" alt="Streamio" />
-												Streamio
-											</a>
-										</li>
-									</ul>
-								</div>
+				<div class="container">
+					<div class="row align-items-start">
+						<div class="col">
+							<p class="h5 text-center text-md-left font-weight-bold">IPTV</p>
+							<ul
+								class="d-flex justify-content-center justify-content-md-start justify-content-center justify-content-md-start flex-wrap list-unstyled mt-2"
+							>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										href="https://hulu.com"
+										target="_blank"
+										class="font-weight-bold text-uppercase w-100"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px"
+											src="assets/img/hulu.png"
+											alt="Hulu"
+										/>
+										<p class="m-0">Hulu</p>
+									</a>
+								</li>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										href="https://netflix.com"
+										class="font-weight-bold text-uppercase w-100"
+										target="_blank"
+									>
+										<img
+											src="assets/img/Netflix.png"
+											class="img-fluid mb-2"
+											style="width: 100px"
+											alt="Netflix"
+										/>
+										<p class="m-0">Netflix</p>
+									</a>
+								</li>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										href="https://streamio.com"
+										target="_blank"
+										class="font-weight-bold text-uppercase w-100"
+									>
+										<img
+											src="assets/img/stremio.png"
+											class="img-fluid mb-2"
+											style="width: 100px"
+											alt="Streamio"
+										/>
+										<p class="m-0">Streamio</p>
+									</a>
+								</li>
+							</ul>
+						</div>
 
-								<div class="col">
-									Transport
-									<ul class="list">
-										<li>
-											<a href="https://bolt.com" target="_blank" class="d_link">
-												<img src="assets/img/bolt.png" alt="Bolt" />
-												Bolt
-											</a>
-										</li>
-										<li>
-											<a href="https://uber.com" target="_blank" class="d_link">
-												<img src="assets/img/uber.svg" alt="Uber" />
-												Uber
-											</a>
-										</li>
+						<div class="col">
+							<p class="h5 text-center text-md-left font-weight-bold">
+								Transport
+							</p>
 
-										<li>
-											<a
-												href="https://yango.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/yango.png" alt="Yango" />
-												Uber
-											</a>
-										</li>
-									</ul>
-								</div>
-								<div class="col">
-									Social Media
-									<ul class="list">
-										<li>
-											<a
-												href="https://snapchat.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/snapchat.webp" alt="Facebook" />
-												Snapchat
-											</a>
-										</li>
+							<ul
+								class="d-flex justify-content-center justify-content-md-start flex-wrap list-unstyled"
+							>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://bolt.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/bolt.png"
+											alt="Bolt"
+										/>
+										<p class="m-0">Bolt</p>
+									</a>
+								</li>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://uber.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/uber.svg"
+											alt="Uber"
+										/>
+										<p class="m-0">Uber</p>
+									</a>
+								</li>
 
-										<li>
-											<a href="https://x.com" target="_blank" class="d_link">
-												<img src="assets/img/twitter.png" alt="Twitter" />
-												Twitter (X)
-											</a>
-										</li>
-										<li>
-											<a
-												href="https://threads.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/threads.png" alt="Threads" />
-												Threads
-											</a>
-										</li>
-										<li>
-											<a
-												href="https://instagram.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/instgram.webp" alt="Facebook" />
-												Instagram
-											</a>
-										</li>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://yango.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/yango.png"
+											alt="Yango"
+										/>
+										<p class="m-0">Yango</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col">
+							<p class="h5 text-center text-md-left font-weight-bold">
+								Social Media
+							</p>
 
-										<li>
-											<a
-												href="https://tiktok.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/tiktok.png" alt="TikTok" />
-												TikTok
-											</a>
-										</li>
+							<ul
+								class="d-flex justify-content-center justify-content-md-start flex-wrap list-unstyled"
+							>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://snapchat.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/snapchat.webp"
+											alt="Facebook"
+										/>
 
-										<li class="list">
-											<a
-												href="https://facebook.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/facebook.jpg" alt="Facebook" />
-												Facebook
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="row align-items-center">
-								<div class="col">
-									Browsers
-									<ul class="list">
-										<li>
-											<a
-												href="https://firefox.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/firefox.png" alt="FireFox" />
-												Firefox
-											</a>
-										</li>
-										<li>
-											<a
-												href="https://safari.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/safari.jpg" alt="Safari" />
-												Safari
-											</a>
-										</li>
-										<li>
-											<a
-												href="https://chrome.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/chrome.png" alt="Chrome" />
-												Google Chrome
-											</a>
-										</li>
-										<li>
-											<a href="https://edge.com" target="_blank" class="d_link">
-												<img src="assets/img/edge.png" alt="Facebook" />
-												Microst Edge
-											</a>
-										</li>
-									</ul>
-								</div>
-								<div class="col">
-									Streaming Services
-									<ul class="list">
-										<li>
-											<a
-												href="https://twitch.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/Twitch.jpg" alt="Facebook" />
-												Twitch
-											</a>
-										</li>
-										<li>
-											<a
-												href="https://youtube.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/youtube.webp" alt="Facebook" />
-												Youtube
-											</a>
-										</li>
+										<p class="m-0">Snapchat</p>
+									</a>
+								</li>
 
-										<li>
-											<a
-												href="https://spotify.com"
-												target="_blank"
-												class="d_link"
-											>
-												<img src="assets/img/spotify.png" alt="Spotify" />
-												Spotify
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://x.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/twitter.png"
+											alt="Twitter"
+										/>
+										<p class="m-0">Twitter (X)</p>
+									</a>
+								</li>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://threads.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/threads.png"
+											alt="Threads"
+										/>
+										<p class="m-0">Threads</p>
+									</a>
+								</li>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://instagram.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/instgram.webp"
+											alt="Facebook"
+										/>
+										<p class="m-0">Instagram</p>
+									</a>
+								</li>
+
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://tiktok.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/tiktok.png"
+											alt="TikTok"
+										/>
+										<p class="m-0">TikTok</p>
+									</a>
+								</li>
+
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://facebook.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/facebook.jpg"
+											alt="Facebook"
+										/>
+
+										<p class="m-0">Facebook</p>
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
-					<!-- </div> -->
-					<!-- </div> -->
-					<!-- </div> -->
+
+					<div class="row align-items-start mt-5">
+						<div class="col">
+							<p class="h5 text-center text-md-left font-weight-bold">
+								Browsers
+							</p>
+							<ul
+								class="d-flex justify-content-center justify-content-md-start flex-wrap list-unstyled"
+							>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://firefox.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/firefox.png"
+											alt="FireFox"
+										/>
+
+										<p class="m-0">Firefox</p>
+									</a>
+								</li>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://safari.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/safari.jpg"
+											alt="Safari"
+										/>
+
+										<p class="m-0">Safari</p>
+									</a>
+								</li>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold d-flex flex-column justify-content-center align-items-center text-uppercase w-100"
+										href="https://chrome.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/chrome.png"
+											alt="Chrome"
+										/>
+										<p class="m-0">Google Chrome</p>
+									</a>
+								</li>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://edge.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/edge.png"
+											alt="Facebook"
+										/>
+
+										<p class="m-0">Microsoft Edge</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col">
+							<p class="h5 text-center text-md-left font-weight-bold">
+								Streaming Services
+							</p>
+
+							<ul
+								class="d-flex justify-content-center justify-content-md-start flex-wrap list-unstyled"
+							>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100 d-flex flex-column justify-content-center align-items-center"
+										href="https://twitch.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/Twitch.jpg"
+											alt="Facebook"
+										/>
+
+										<p class="m-0">Twitch</p>
+									</a>
+								</li>
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://youtube.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/youtube.webp"
+											alt="Facebook"
+										/>
+										<p class="m-0">Youtube</p>
+									</a>
+								</li>
+
+								<li class="d-flex text-center rounded-lg px-3 py-3">
+									<a
+										class="font-weight-bold text-uppercase w-100"
+										href="https://spotify.com"
+										target="_blank"
+									>
+										<img
+											class="img-fluid mb-2"
+											style="width: 100px; height: auto"
+											src="assets/img/spotify.png"
+											alt="Spotify"
+										/>
+
+										<p class="m-0">Spotify</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
+				<!-- </div> -->
+				<!-- </div> -->
+				<!-- </div> -->
 			</div>
 		</main>
 
