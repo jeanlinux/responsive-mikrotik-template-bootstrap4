@@ -11,9 +11,9 @@ body {
 	font-family: "Maven Pro", Arial, sans-serif;
 	font-weight: normal;
 	background-size: cover;
-	height: 100vh;
+	min-height: 100vh;
 	position: relative;
-	overflow: hidden;
+	overflow-y: auto;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	body {
@@ -130,17 +130,34 @@ main {
 }
 /*# sourceMappingURL=theme.css.map */
 .attribution {
-	max-height: 80px;
-	height: 40px;
-	position: relative;
-	bottom: 160px;
-	right: 60px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 500px) {
+	.attribution {
+		flex-direction: row;
+	}
 }
 .partner {
-	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
 }
+
+.partner p {
+	font-weight: 500;
+	margin: 0;
+}
+
 .partner img {
-	height: 120px;
+	height: auto;
 	width: 120px;
 	position: relative;
 }
