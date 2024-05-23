@@ -48,6 +48,8 @@ and change the `savePath` to **/assets/css**
 
 - Find the watch sass button at the bottom of the terminal bar and click on it to compile your scss files.
 
+![watch sass](readme.png)
+
 If you cant find watch sass, open your command palette by pressing `ctrl + P` on Mac `Command + P`. and then type `> watch sass`.
 
 Make sure you have the compilation directory specified to this projects required dir or a new location will be used for the compilation of the css files. [How to configure the savePath](#configuring-a-savepath-or-dir)
@@ -59,6 +61,20 @@ If in your console, the output is `watching` then it means everything is working
 - Find the Go live button at the bottom of the terminal and click on it to run the dev server. Make sure you have `Live Server` extension by Ritwick Dey installed.
 
 If you cant find Go Live at the bottom of the terminal open your command palette by pressing `ctrl + P` on Mac `Command + P`. and then type `> live sass`.
+
+## An overview of how the scss folder is structure
+
+The **theme.scss** imports all of the scss files in the \_partials and \_pages directory and compiles them into the css directory.
+
+inside the **\_pages** directory, each file includes styles for a page. e.g the **\_dashboard.scss** includes the styles for the **dashboard page**. Noticed there is an `_index.scss` file in the root. The **index.scss** `@forwards` all the files in a directory and includes them in the `theme.scss` file so that it compiles them.
+
+## Creating a new stylesheet for a page
+
+To create a new stylesheet for a page, get into the scss directory and inside `_pages` create your file. **e.g demo.scss**
+
+after creating a stylesheet, open the `_index.scss` file located at the root of that directory and `@forward "./demo";`. ignore the extension.
+
+**NB**: Do the above for every stylesheet you add.
 
 ## Screenshots
 
